@@ -1,0 +1,11 @@
+name: 'Tiles Grid'
+type: module
+description: 'tiles grid component for homepage'
+core: 8.x
+package: 'Tile Component'
+dependencies:
+  - entityqueue
+  - fontawesome
+  - twig_tweak
+  - colorbox
+  - video_embed_field

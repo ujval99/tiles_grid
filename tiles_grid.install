@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Install functions for the tiles_grid module.
+ */
+
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_install().
+ */
+function tiles_grid_install() {
+  // Machine name of the vocabulary.
+  $vocab = 'tags';
+
+  // Term names to be added.
+  $items = [
+    ['People', 'smile'],
+    ['Food', 'apple-alt'],
+    ['Planet', 'globe'],
+  ];
+
+  foreach ($items as $item) {
+    $term = Term::create([
+      'parent' => array(),
+      'name' => $item[0],
+      'vid' => $vocab,
+      'field_icons' => $item[1],
+    ])->save();
+  }
+}

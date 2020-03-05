@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_moderator
+label: 'Content Moderator'
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer entityqueue'
+  - 'administer nodes'
+  - 'create article content'
+  - 'create terms in tags'
+  - 'create tiles content'
+  - 'delete any article content'
+  - 'delete any tiles content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own tiles content'
+  - 'delete terms in tags'
+  - 'delete tiles revisions'
+  - 'edit any article content'
+  - 'edit any tiles content'
+  - 'edit own article content'
+  - 'edit own tiles content'
+  - 'edit terms in tags'
+  - 'manipulate all entityqueues'
+  - 'manipulate entityqueues'
+  - 'revert article revisions'
+  - 'revert tiles revisions'
+  - 'update tiles entityqueue'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view own unpublished content'
+  - 'view tiles revisions'

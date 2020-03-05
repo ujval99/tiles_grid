@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_embed_video
+    - node.type.tiles
+  module:
+    - video_embed_field
+id: node.tiles.field_embed_video
+field_name: field_embed_video
+entity_type: node
+bundle: tiles
+label: 'Embed video'
+description: 'Enter the YouTube URL. Valid URL formats include: http://www.youtube.com/watch?v=1SqBdS0XkV4 and http://youtu.be/1SqBdS0XkV4. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

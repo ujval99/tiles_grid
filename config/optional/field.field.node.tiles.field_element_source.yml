@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_element_source
+    - node.type.tiles
+  module:
+    - options
+id: node.tiles.field_element_source
+field_name: field_element_source
+entity_type: node
+bundle: tiles
+label: 'Element Source'
+description: "Select source to display information on the home page tiles for <b>Article tiles</b>.<br>\r\n<i>Example:Background Image, Title, Sub Title, Tags</i>"
+required: false
+translatable: false
+default_value:
+  -
+    value: articles
+default_value_callback: ''
+settings: {  }
+field_type: list_string

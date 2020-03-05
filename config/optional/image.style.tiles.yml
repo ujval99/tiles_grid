@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: tiles
+label: Tiles
+effects:
+  8dfc66fa-cade-43c2-b9e5-7d116f897ca8:
+    uuid: 8dfc66fa-cade-43c2-b9e5-7d116f897ca8
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: 350
+      upscale: false

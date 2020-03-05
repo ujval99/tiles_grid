@@ -1,0 +1,135 @@
+/**
+ * @file
+ * Styles for Tiles Grid feature.
+ */
+
+/* ---- button-group ---- */
+.button-group:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.button-group .button {
+  border-radius: 0;
+  float: left;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child {
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.button-group .button:last-child {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+/* ---- button ---- */
+.button-group .button {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-bottom: 10px;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  color: #222;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-group .button:hover {
+  background-color: #f7c659;
+  color: #222;
+}
+
+.button-group .button:active,
+.button-group .button.is-checked {
+  background-color: #f7c659;
+}
+
+.button-group .button.is-checked {
+  color: white;
+}
+
+/* ---- element ---- */
+.element-item {
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 0px;
+  margin: 5px;
+  position: relative;
+}
+
+.element-item .item-image {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.element-item .item-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.element-item .item-title {
+  color: #91c8ae;
+  padding: 8px 15px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.element-item .item-title span {
+  color: #f7c659;
+}
+
+.element-item .item-text {
+  color: #202724;
+  padding: 4px 15px 8px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.element-item .item-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.element-item .item-icon .icon {
+  background: rgb(86,129,114,0.65);
+  padding: 10px 13px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.element-item .video-icon {
+  cursor: pointer;
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  background: rgba(247, 198, 89, 0.90);
+  padding: 10px 13px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.element-item .video-icon i {
+  font-size: 24px;
+}
+
+.grid-href,
+.grid-href:hover {
+  color: unset;
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+isotope:
+  version: 3.0.6
+  js:
+    js/isotope/isotope.pkgd.min.js: {}
+  dependencies:
+    - core/jquery
+  css:
+    theme:
+      css/tiles_grid.css: {}
+
+imagesloaded:
+  js:
+    js/imagesloaded/imagesloaded.pkgd.min.js: {}
+    js/imagesloaded/imagesloaded.pkgd.js: {}
+
+custom:
+  js:
+    js/tilesgrid/tiles_grid.js: {}
